@@ -11,4 +11,4 @@ console.log("10" / "2");
 
 console.log("Ricardo" / "2"); //not a number.
 console.log(6.5); //ponto flutuante.
-console.log(6,5);
+console.log(6,5); // virgula é para casos especiais.
