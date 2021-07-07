@@ -18,3 +18,9 @@ else{
 }
 
 console.log(listaDeDestinos);
+
+console.log(idadeComprador > 18);
+console.log(idadeComprador < 18);
+console.log(idadeComprador <= 18);
+console.log(idadeComprador >= 18);
+console.log(idadeComprador == 18);
