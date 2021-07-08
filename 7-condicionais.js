@@ -11,14 +11,11 @@ const estaAcompanhada = true;
 console.log("Destinos possíveis:");
 console.log(listaDeDestinos);
 
-if(idadeComprador >= 18){
-    console.log("Comprador maior de idade");
-    listaDeDestinos.splice(1,1); //Removendo item
+if(
+    idadeComprador >= 18 || estaAcompanhada == true){ // || sinal de OU
+    console.log("Boa viagem!");
+    listaDeDestinos.splice(2,1); //Removendo item
 }
-else if(estaAcompanhada == true){
-        console.log("Comprador está acompanhado");
-        listaDeDestinos.splice(1,1); //Removendo item
-    }
     else{
         console.log("Venda proibida para menores de 18 anos.")
     }
