@@ -33,7 +33,7 @@ if(idadeComprador >= 18 || estaAcompanhada == true){ // || sinal de OU
     }
 
 console.log("Embarque: \n\n")
-if(idadeComprador >= 18 && temPassagemComprada){
+if(idadeComprador >= 18 && temPassagemComprada){  //&& é AND
     console.log("Boa viagem");
 }
 else{
